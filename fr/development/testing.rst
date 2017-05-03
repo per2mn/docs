@@ -377,9 +377,9 @@ pouvez utiliser quand vous faîtes les tests:
   pour nettoyer une fois que le test est terminé. Toujours se rappeler
   d'appeler ``parent::tearDown()``.
 * ``setupBeforeClass`` est appelé une fois avant que les méthodes de test
-  aient commencées dans un cas. Cette méthode doit être *statique*.
+  aient commencé dans un cas. Cette méthode doit être *statique*.
 * ``tearDownAfterClass`` est appelé une fois après que les méthodes de test
-  ont commencé dans un cas. Cette méthode doit être *statique*.
+  aient commencé dans un cas. Cette méthode doit être *statique*.
 
 .. _test-fixtures:
 
