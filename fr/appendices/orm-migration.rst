@@ -178,7 +178,7 @@ Une différence importante dans le nouvel ORM est qu'appeler ``find`` sur une
 table ne va pas retourner les résultats immédiatement, mais va retourner un
 objet Query; cela sert dans plusieurs cas.
 
-Il est possible de modifier les requêtes plus tard, après avoir appeler
+Il est possible de modifier les requêtes plus tard, après avoir appelé
 ``find``::
 
     $articles = TableRegistry::get('Articles');
@@ -544,8 +544,8 @@ Identifier Quoting Désactivé par Défaut
 ---------------------------------------
 
 Dans le passé, CakePHP a toujours quoté les identifieurs. Parser les bouts de
-code SQL et tenter de quoter les identifiers étaient tous les deux des source
-d'erreurs et coûteuses. Si vous suivez les conventions que CakePHP définit,
+code SQL et tenter de quoter les identifiers étaient tous les deux des sources
+coûteuses d'erreurs. Si vous suivez les conventions que CakePHP définit,
 les coûts du identifier quoting l'emporte sur tout avantage qu'il fournisse.
 Puisque ce identifier quoting a été désactivé par défaut dans 3.0. Vous devriez
 seulement activer le identifier quoting si vous utilisez les noms de colonne ou
@@ -583,8 +583,8 @@ de CakePHP 2.x:
 - Les Behaviors ne sont plus partagés par plusieurs tables. Cela signifie
   que vous n'avez plus à 'donner un namespace' aux configurations stockés dans
   behavior. Chaque table utilisant un behavior va créer sa propre instance.
-- Les signatures de méthode pour les méthodes mixin a changé.
-- Les signatures de méthode pour les méthodes de callback a changé.
+- Les signatures de méthode pour les méthodes mixin ont changé.
+- Les signatures de méthode pour les méthodes de callback ont changé.
 - La classe de base pour les behaviors a changé.
 - Les Behaviors peuvent ajouter des méthodes find.
 
